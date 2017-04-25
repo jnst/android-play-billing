@@ -14,7 +14,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "com.example.android.trivialdrivesample"
+        applicationId "jp.eila.android.trivialdrivesample"
         minSdkVersion 14
         targetSdkVersion 23
         versionCode 7

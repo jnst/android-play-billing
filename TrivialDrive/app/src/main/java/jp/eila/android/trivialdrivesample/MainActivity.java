@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.trivialdrivesample;
+package jp.eila.android.trivialdrivesample;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -30,16 +30,16 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.example.android.trivialdrivesample.util.IabBroadcastReceiver;
-import com.example.android.trivialdrivesample.util.IabBroadcastReceiver.IabBroadcastListener;
-import com.example.android.trivialdrivesample.util.IabHelper;
-import com.example.android.trivialdrivesample.util.IabHelper.IabAsyncInProgressException;
-import com.example.android.trivialdrivesample.util.IabResult;
-import com.example.android.trivialdrivesample.util.Inventory;
-import com.example.android.trivialdrivesample.util.Purchase;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import jp.eila.android.trivialdrivesample.util.IabBroadcastReceiver;
+import jp.eila.android.trivialdrivesample.util.IabBroadcastReceiver.IabBroadcastListener;
+import jp.eila.android.trivialdrivesample.util.IabHelper;
+import jp.eila.android.trivialdrivesample.util.IabHelper.IabAsyncInProgressException;
+import jp.eila.android.trivialdrivesample.util.IabResult;
+import jp.eila.android.trivialdrivesample.util.Inventory;
+import jp.eila.android.trivialdrivesample.util.Purchase;
 
 /**
  * Example game using in-app billing version 3.
@@ -161,7 +161,7 @@ public class MainActivity extends Activity implements IabBroadcastListener,
          * want to make it easy for an attacker to replace the public key with one
          * of their own and then fake messages from the server.
          */
-        String base64EncodedPublicKey = "CONSTRUCT_YOUR_KEY_AND_PLACE_IT_HERE";
+        String base64EncodedPublicKey = "testtesttest";
 
         // Some sanity checks to see if the developer (that's you!) really followed the
         // instructions to run this sample (don't put these checks on your app!)
